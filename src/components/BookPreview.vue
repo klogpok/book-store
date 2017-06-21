@@ -31,4 +31,13 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .book-preview {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    background: lightgray;
+    text-align: center;
+  }
 </style>

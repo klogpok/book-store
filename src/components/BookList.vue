@@ -31,9 +31,14 @@
 <script>
   import bookService from '../services/book.service'
   import cartService from '../services/cart.service'
+  import BookDetails from '../components/BookDetails.vue'
+  import BookFilter from '../components/BookFilter.vue'
+  import BookPreview from '../components/BookPreview.vue'
+  import BookEdit from '../components/BookEdit.vue'
 
   export default {
     name: 'book-list',
+    components: { BookDetails, BookFilter, BookPreview , BookEdit},
     created() {
       bookService.getBooks().then(books => {
         // console.log(books);

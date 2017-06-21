@@ -24,7 +24,7 @@
     },
     computed: {
       total() {
-//        this.items;
+        this.items;
         return cartService.getCartTotal();
       }
 
@@ -34,4 +34,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .cart {
+    background-color: lightseagreen;
+    padding: 10px;
+    border-radius: 1em;
+  }
 </style>

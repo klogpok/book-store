@@ -23,4 +23,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .book-filter {
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 1em;
+  }
 </style>
