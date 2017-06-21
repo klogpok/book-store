@@ -1,6 +1,7 @@
 <template>
   <section class="cart">
     <h1>Cart</h1>
+    <h2>Dad</h2>
     <ul>
       <li v-for="item in items">
         {{item.title}} (Quantity: {{item.quantity}})
